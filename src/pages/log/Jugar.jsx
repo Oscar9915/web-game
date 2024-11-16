@@ -37,12 +37,18 @@ const Jugar = () => {
             Nuevo <br /> Juego
           </Link>
 
-          <Link
-            to=""
-            className="bg-[#10024D] px-20 text-center text-[#2CD4E1] w-[40%] py-2 rounded-[0.5rem] mx-auto font-semibold mb-4 flex justify-center items-center hover:bg-red-700 transition-colors"
-          >
-            Sobre <br /> Doctuns
-          </Link>
+          <button 
+  className="bg-[#10024D] px-20 text-center text-[#2CD4E1] w-[40%] py-2 rounded-[0.5rem] mx-auto font-semibold mb-4 flex justify-center items-center hover:bg-red-700 transition-colors"
+>
+  <a 
+    href="https://www.doctums.com/about" 
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    Sobre <br /> DocTums
+  </a>
+</button>
+
         </div>
       </section>
     </div>
